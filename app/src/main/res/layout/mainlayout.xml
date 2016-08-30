@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/ty"
+    android:layout_height="match_parent">
+
+
+
+
+
+<Button
+        android:id="@+id/btn_Bq"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="记事本"
+
+        android:textSize="25sp"
+        android:layout_above="@+id/btn_Bw"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonpressed"/>
+
+    <Button
+        android:id="@+id/btn_Bw"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="备忘录"
+        android:textSize="25sp"
+        android:layout_above="@+id/btn_Tx"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonpressed"/>
+
+    <Button
+        android:id="@+id/btn_Tx"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="听写本"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonpressed"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

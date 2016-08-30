@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.speekui.MainActivity"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button 
+        android:id="@+id/bt_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始理解"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_understander"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2_understander"
+        />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">物联网语音</string>
+    <string name="app_lable">物联网语音听写器</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>
